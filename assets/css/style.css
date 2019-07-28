@@ -1,0 +1,48 @@
+.title{
+  font-size: 80px;
+}
+
+/* toggle */
+.toggle-menu dt {
+    margin: 0 auto;
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .toggle-menu > dd {
+    display: none;
+    margin: 0 auto;
+    background-color: rgba(49, 49, 49, 0);
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .toggle-menu dd + dd {
+    border-top: none;
+  }
+  /* toggleここまで */
+
+  body  {
+    text-align: center;/*一応BOX内の文字も中央寄せ*/
+  }
+
+  p#nickname{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  p#content{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  body {
+    font-family: "Osaka-Mono";
+}
